@@ -1,0 +1,11 @@
+[project]
+name = "ayrtel"
+version = "0.1.0"
+description = "Python module for extracting text from telemetry video."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "opencv-python>=4.11.0.86",
+    "pytesseract>=0.3.13",
+    "tqdm>=4.67.1",
+]
